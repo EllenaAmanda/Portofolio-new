@@ -8,17 +8,20 @@ import Socmed from "./component/Socmed"
 function App() {
 
   return (
-    <div className="px-[12%] bg-neutral-50">
-      <Navigation />
+    <div>
+      <Navigation/>
       <Socmed />
-      <Home />
-      <hr></hr>
-      <About />
-      <hr></hr>
-      <Portofolio />
-      <hr></hr>
-      <Blog />
+      <div id="scroll-container" className="px-[12%] bg-neutral-50">  
+        <Home />
+        <hr></hr>
+        <About/>
+        <hr></hr>
+        <Portofolio />
+        <hr></hr>
+        <Blog />
+      </div>
     </div>
+    
   )
 }
 
