@@ -1,17 +1,21 @@
-import About from "./component/About"
-import Blog from "./component/Blog"
-import Footer from "./component/Footer"
-import Home from "./component/Home"
-import Navigation from "./component/Navigation"
-import Portofolio from "./component/Portofolio"
-import Socmed from "./component/Socmed"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Landing from "./pages/Landing"
+import Porto1 from "./pages/Porto1"
+import Porto2 from "./pages/Porto2"
+import Porto3 from "./pages/Porto3"
 
 function App() {
 
   return (
     <div>
-      <Landing />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Landing />}/>
+          <Route path="/porto1" element={<Porto1 />}/>
+          <Route path="/porto2" element={<Porto2 />}/>
+          <Route path="/porto3" element={<Porto3/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
     
   )
