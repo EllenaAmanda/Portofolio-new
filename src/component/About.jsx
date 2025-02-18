@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='min-h-screen league-spartan-reg py-[10rem]'>
+    <div className='min-h-screen league-spartan-reg py-[10rem]' id='about'>
         <h3 className='text-center text-xl mb-[6rem]'>About me</h3>
         <div className='text-3xl flex flex-col gap-18'>
             <p>I'm an undergraduate student pursuing a degree in Computer Science. Currently, I'm in the process of writing my thesis.</p>

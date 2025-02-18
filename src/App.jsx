@@ -1,4 +1,5 @@
 import About from "./component/About"
+import Blog from "./component/Blog"
 import Home from "./component/Home"
 import Navigation from "./component/Navigation"
 import Portofolio from "./component/Portofolio"
@@ -15,6 +16,8 @@ function App() {
       <About />
       <hr></hr>
       <Portofolio />
+      <hr></hr>
+      <Blog />
     </div>
   )
 }
