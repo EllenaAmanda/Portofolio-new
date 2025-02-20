@@ -12,7 +12,7 @@ function Landing() {
     <div>
         <Navigation/>
       <Socmed />
-      <div id="scroll-container" className="px-[12%] bg-neutral-50">  
+      <div className="px-[12%] bg-neutral-50">  
         <Home />
         <hr></hr>
         <About/>
