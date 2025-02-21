@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import womenrise from "../assets/photos/womenrise.png"
 import Footer from "../component/Footer"
-import pp3t from "../assets/photos/pp3t.png"
+import pp3t from "../assets/photos/PP3T.png"
 import cart from "../assets/photos/shoppingcart.png"
 import Navigation from '../component/Navigation'
 
