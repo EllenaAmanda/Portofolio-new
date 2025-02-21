@@ -14,6 +14,8 @@ function App() {
           <Route path="/porto1" element={<Porto1 />}/>
           <Route path="/porto2" element={<Porto2 />}/>
           <Route path="/porto3" element={<Porto3/>}/>
+          
+          <Route path="/home" element={<Landing />}/>
         </Routes>
       </BrowserRouter>
     </div>
