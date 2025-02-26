@@ -11,7 +11,9 @@ function Landing() {
   return (
     <div>
         <Navigation/>
-      <Socmed />
+        <div>
+          {/* <Socmed /> */}
+        </div>
       <div className="px-[12%] bg-neutral-50">  
         <Home />
         <hr></hr>

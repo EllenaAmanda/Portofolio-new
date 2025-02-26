@@ -8,13 +8,13 @@ function Blog() {
             <a target="_blank" href='https://medium.com/@ellenaamanda846/improving-gamification-in-campaign-com-ux-case-study-reediting-febc2d73ddc2'>
               <article className='cursor-pointer transition-all delay-150 duration-300 ease-out flex flex-col gap-6 border-b border-transparent hover:border-black pb-5'>
                   <h3 className='font-[myFont] text-2xl'>Gamification in Campaign.com — UI/UX Case Study</h3>
-                  <p className='text-2xl'>8 min read · Nov 29, 2022</p>
+                  <p className='md:text-2xl text-[16px]'>8 min read · Nov 29, 2022</p>
               </article>
             </a>
             <a target='_blank' href='https://medium.com/@ellenaamanda846/ux-case-study-study-space-198374fab93c'>
               <article className='cursor-pointer transition-all delay-150 duration-300 ease-out flex flex-col gap-6 border-b border-transparent hover:border-black pb-5'>
                   <h3 className='font-[myFont] text-2xl'>UX Case Study — Study Space</h3>
-                  <p className='text-2xl'>7 min read · Oct 11, 2022</p>
+                  <p className='md:text-2xl text-[16px]'>7 min read · Oct 11, 2022</p>
               </article>
             </a>
         </div>

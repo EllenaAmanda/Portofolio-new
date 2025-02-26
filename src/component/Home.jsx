@@ -13,7 +13,7 @@ function Home() {
             1000]}
             speed={50}
             repeat={Infinity}
-            className='font-[MyFont] text-8xl/48'
+            className='font-[MyFont] md:text-8xl/48 text-5xl/24'
         />
     </div>
   )
