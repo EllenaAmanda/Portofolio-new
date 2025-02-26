@@ -18,7 +18,7 @@ function Landing() {
         <Home />
         <hr></hr>
         <About/>
-        <hr></hr>
+        <hr />
         <Portofolio />
         <hr></hr>
         <Blog />

@@ -13,7 +13,7 @@ function Socmed() {
             <a target='_blank' href='https://www.linkedin.com/in/ellenaamanda/'> <img src={linked} className='hover:invert cursor-pointer transition-all delay-150 duration-300 ease-in-out'/></a>
         </div>
       </div >
-      <div className='lg:hidden flex gap-4 my-3.5'>
+      <div className='lg:hidden flex gap-4 my-4'>
         <a href='mailto:ellenaamanda846@gmail.com'><img src={email} className='hover:invert cursor-pointer transition-all delay-150 duration-300 ease-in-out'/></a>
           <a target="_blank" href='https://github.com/EllenaAmanda'><img src={github} className='hover:invert cursor-pointer transition-all delay-150 duration-300 ease-in-out'/></a>
           <a target='_blank' href='https://www.linkedin.com/in/ellenaamanda/'> <img src={linked} className='hover:invert cursor-pointer transition-all delay-150 duration-300 ease-in-out'/></a>
