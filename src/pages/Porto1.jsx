@@ -11,6 +11,7 @@ function Porto1() {
     <div>
     <div className="p-8 md:px-[12%] py-[6%] bg-neutral-50 min-h-screen">
         <h2 className='font-[myFont] text-center text-3xl mb-[8%] '>Front End / Full-Stack Projects</h2>
+        
         <div className='justify-items-center grid grid-cols-1 lg:grid-cols-2  md:gap-24 league-spartan-reg'> 
             <Link target="_blank" to="https://women-rise3-t.vercel.app/">
             <div className='max-sm:scale-80 w-sm text-center'>
